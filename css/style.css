@@ -439,7 +439,7 @@ margin-bottom: 0;
 
 footer p{
     margin-top: 1vh;
-    padding-top: 0px;
+    padding-top: px;
     margin-bottom:0px;
 }
 
@@ -448,7 +448,7 @@ footer {
 }
 
 footer a{
-    margin: 1em;
+    margin: em;
     color: white;
 }
 
