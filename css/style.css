@@ -1,6 +1,6 @@
 html, body {
-    background-color: #080808 !important;
-    color: white;
+    background-color: #7d8769 !important;
+    color: #173125;
     font-family: 'Ubuntu', sans-serif !important;
     scroll-behavior: smooth;
 
@@ -12,7 +12,7 @@ p, h5 {
 
 
 footer {
-    border-top: 3px solid #6ef7b5;
+    border-top: 3px solid #e1d9c9;
 padding-top: 10px;
 }
 
@@ -32,15 +32,15 @@ nav{
     visibility: hidden;
 }
 .nav-link{
-    color: white;
+    color: #e1d9c9;
     padding-right: 2em !important;
     padding-left: 0 !important;
 }
 .nav-link:hover{
-    color: #6ef7b5;
+    color: #e1d9c9;
 }
 .active{
-    color: #6ef7b5;
+    color: #e1d9c9;
 }
 .active:hover{
     color:white;
@@ -52,7 +52,7 @@ nav{
     left: 0;
     position: fixed;
     width: 100vw;
-    background-color: #080808;
+    background-color: #173125;
     visibility: visible;
     z-index: 200;
 }
@@ -225,7 +225,7 @@ font-weight: bold;}
     margin: 25px 0 25px 0;
     width: 300px;
     height: 4px;
-    background: #6ef7b5;
+    background: #e1d9c9;
     animation: smoothLeft 1s;
     z-index: -100 !important;
 }
@@ -272,7 +272,7 @@ font-weight: normal;
 }
 
 .link{
-    color: #6ef7b5;
+    color: #173125;
 }
 
 .link:hover{
@@ -455,7 +455,7 @@ footer a{
 }
 
 footer a:hover{
-    color: #6ef7b5;
+    color: #7f4b30;
 }
 
 
@@ -480,7 +480,7 @@ footer a:hover{
     }
 
     nav{
-        border-bottom: 3px solid #6ef7b5;
+        border-bottom: 3px solid #7f4b30;
         height: 5vh;
     }
 
@@ -540,7 +540,7 @@ footer a:hover{
     }
 
     nav{
-        border-bottom: 3px solid #6ef7b5;
+        border-bottom: 3px solid #7f4b30;
         height: 5vh;
     }
 
@@ -606,7 +606,7 @@ footer a:hover{
     }
 
     nav{
-        border-top: 3px solid #6ef7b5;
+        border-top: 3px solid #7f4b30;
     }
 
     footer{
