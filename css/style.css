@@ -163,7 +163,8 @@ font-weight: bold;}
 
 .cover-text {
     position: relative;
-    padding-left: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     font-size: 2rem;
     color: #ededed;
     text-align: center;
