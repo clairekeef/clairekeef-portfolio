@@ -226,7 +226,7 @@ font-weight: bold;}
     margin: 25px 0 25px 0;
     width: 300px;
     height: 4px;
-    background: #e1d9c9;
+    background: #7f4b30;
     animation: smoothLeft 1s;
     z-index: -100 !important;
 }
