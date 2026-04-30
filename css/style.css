@@ -442,6 +442,10 @@ margin-bottom: 0;
     }
 }
 
+.contentContainer {
+    margin-bottom: 40px;
+}
+
 /*///////////////FOOTER///////////////*/
 
 footer p{
@@ -719,7 +723,7 @@ footer a:hover{
 
 .comingSoon {
     align-items: center;
-    text-align: center;
+    text-align: c;
 }
 
 
