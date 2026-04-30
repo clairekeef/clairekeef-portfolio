@@ -30,21 +30,28 @@ padding-top: 10px;
 /*/////////////////// Nav Styles ///////////////////*/
 
 nav{
-    visibility: hidden;
+    visibility: visible;
 }
 .nav-link{
     color: #e1d9c9;
     padding-right: 2em !important;
     padding-left: 0 !important;
 }
+#titleName {
+    font-size: 24px;  /* or 24px, 28px, etc */
+    font-weight: bold;  /* optional, makes it stand out */
+}
+
 .nav-link:hover{
-    color: #e1d9c9;
+    color: #ae9372;
 }
-.active{
-    color: #e1d9c9;
-}
+
 .active:hover{
-    color:white;
+    color:#ae9372;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
 }
 
 
