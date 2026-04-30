@@ -309,6 +309,11 @@ font-weight: normal;
     height: auto;
 }
 
+.projectImg2{
+    width: 75%;
+    height: auto;
+}
+
 .bold{
     font-weight: bold !important;
     letter-spacing: .05rem;
@@ -444,6 +449,14 @@ margin-bottom: 0;
 
 .contentContainer {
     margin-bottom: 40px;
+}
+
+#click {
+    font-style: italic;
+}
+
+#click2 {
+    color: #7d8769;
 }
 
 /*///////////////FOOTER///////////////*/
