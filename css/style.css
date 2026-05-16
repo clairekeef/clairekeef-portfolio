@@ -396,14 +396,13 @@ margin-bottom: 0;
 
 footer p{
     margin-top: 1vh;
-    padding-top: px;
+    padding-top: 5px;
     margin-bottom:0px;
 }
 
 footer a{
     margin: 1em;
     color: #b27d57;
-    align-items: center;
 }
 
 footer a:hover{
