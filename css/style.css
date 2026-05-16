@@ -1,6 +1,6 @@
 html, body {
     background-color: #7d8769 !important;
-    color: #173125;
+    
     font-family: 'Ubuntu', sans-serif !important;
     scroll-behavior: smooth;
 
@@ -33,7 +33,7 @@ nav{
     visibility: visible;
 }
 .nav-link{
-    color: #e1d9c9;
+    color: #b27d57;
     padding-right: 2em !important;
     padding-left: 0 !important;
 }
@@ -43,11 +43,11 @@ nav{
 }
 
 .nav-link:hover{
-    color: #ae9372;
+    color: #7f4b30;
 }
 
 .active:hover{
-    color:#ae9372;
+    color:#7f4b30;
 }
 .navbar-nav {
     display: flex;
@@ -60,7 +60,7 @@ nav{
     left: 0;
     position: fixed;
     width: 100vw;
-    background-color: #173125;
+    background-color: #e1d9c9;
     visibility: visible;
     z-index: 200;
 }
@@ -234,7 +234,7 @@ font-weight: bold;}
     margin: 25px 0 25px 0;
     width: 300px;
     height: 4px;
-    background: #7f4b30;
+    background: #7f4b30; 
     animation: smoothLeft 1s;
     z-index: -100 !important;
 }
@@ -502,7 +502,7 @@ footer a:hover{
     }
 
     nav{
-        border-bottom: 3px solid #7f4b30;
+        /* border-bottom: 3px solid #7f4b30; */
         height: 7vh;
     }
 
@@ -740,3 +740,32 @@ footer a:hover{
 }
 
 
+.topContainer,
+.contentContainer {
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+}
+
+/* controls readable content width */
+.innerContent {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.topContainer {
+    background-color: #7d8769;
+}
+
+#maps {
+    background-color: #173125;
+    color: #173125;
+}
+
+#ux {
+    background-color: #e1d9c9;
+}
+
+h4 {
+    color: #7d8769;
+}
