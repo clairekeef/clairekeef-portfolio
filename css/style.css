@@ -1,29 +1,22 @@
 html, body {
-    background-color: #7d8769 !important;
+    background-color: #7d8769;
     
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Ubuntu', sans-serif;
     scroll-behavior: smooth;
 
 }
 
 
-p, h5 {
+p {
     font-family: 'Bitter', serif;
 }
 
 
 footer {
     border-top: 3px solid #e1d9c9;
-padding-top: 10px;
-}
-
-#welcome {
-    padding-bottom: 10vh;
-    text-align: center;
-}
-
-#courseDescriptions, #teachingApproaches {
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 5vh;
+    background-color: #e1d9c9;
 }
 
 
@@ -38,8 +31,8 @@ nav{
     padding-left: 0 !important;
 }
 #titleName {
-    font-size: 24px;  /* or 24px, 28px, etc */
-    font-weight: bold;  /* optional, makes it stand out */
+    font-size: 24px; 
+    font-weight: bold; 
 }
 
 .nav-link:hover{
@@ -49,6 +42,7 @@ nav{
 .active:hover{
     color:#7f4b30;
 }
+
 .navbar-nav {
     display: flex;
     align-items: center;
@@ -69,18 +63,6 @@ header{
     margin-bottom: 15vh;
 }
 
-.brand{
-    right: 17.33vw;
-    position: absolute;
-}
-
-.brand h5{
-    padding-top:1rem;
-    padding-bottom: 1rem;
-    font-family: 'Ubuntu', sans-serif !important;
-
-}
-
 h5 {
         font-family: 'Ubuntu', sans-serif !important;
 
@@ -96,21 +78,16 @@ h5 {
 }
 
 
-/*///////////////Portfolio///////////////*/
-.topContainer {
-    margin-left: 20vw;
-    margin-right: 20vw;
-}
+/* Portfolio */
 
 .topContainer em {
     color: #e1d9c9;
 font-weight: bold;}
 
 .row {
-    display: flex;
     flex-wrap: wrap;
-    padding: 0 20;
-    margin: 0px !important;
+    padding: 0 20px;
+    margin: 0px;
 }
 
 .column img{
@@ -147,9 +124,9 @@ font-weight: bold;}
 
 }
 
+/* Style for Mac : not super important */
 @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
-/*///////////////Style for Mac///////////////*/
 
     .cover-container{
         display: table-cell;
@@ -165,18 +142,19 @@ font-weight: bold;}
         display: block !important;
     }
 
-        }
+    }
 }
+/* mac styling ends */
 
 .cover-text {
     position: relative;
     padding-left: 2vw;
     padding-right: 2vw;
     font-size: 2rem;
-    color: #ededed;
+    color: #e1d9c9;
     text-align: center;
     border-bottom-style: solid;
-    border-color: white;
+    border-color: #e1d9c9;
     line-height: 1em;
 }
 
@@ -184,7 +162,7 @@ font-weight: bold;}
     position: relative;
     padding-left: 1vw;
     font-size: 1.5rem;
-    color: #ededed;
+    color: #e1d9c9;
     text-align: center;
     margin-top: 7px;
 
@@ -236,64 +214,13 @@ font-weight: bold;}
     height: 4px;
     background: #7f4b30; 
     animation: smoothLeft 1s;
+    /*
     z-index: -100 !important;
+    */
 }
 
 .portrait{
     height: 100% !important;
-}
-
-
-/*///////////////RESUME///////////////*/
-
-.researchHeader {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.year{
-    padding-left: 0 !important;
-}
-
-ul{
-    padding-left: 1.1rem;
-}
-
-.lastList{
-    margin-bottom: 0;
-}
-
-.research p, h5{
-    margin-bottom: 0;
-}
-
-div .noPad strong{
-text-decoration: underline;
-font-weight: normal;
-}
-
-.pub{
-    margin-bottom: 1rem !important;
-}
-
-.noPad{
-    padding: 0px !important;
-}
-
-.link{
-    color: #173125;
-}
-
-.link:hover{
-    color: white !important;
-}
-
-.padBot {
-    padding-bottom: 16px !important;
-}
-
-.research h5{
-    text-align: center !important;
 }
 
 /*///////////////Project Pages///////////////*/
@@ -467,14 +394,9 @@ footer p{
     margin-bottom:0px;
 }
 
-footer {
-    padding-bottom: 5vh;
-    background-color: #e1d9c9;
-}
-
 footer a{
-    margin: em;
-    color: #b27d57;
+    margin: 1em;
+    color: white;
 }
 
 footer a:hover{
@@ -504,7 +426,7 @@ footer a:hover{
 
     nav{
         /* border-bottom: 3px solid #7f4b30; */
-        height: 7vh;
+        height: 7.5vh;
     }
 
     .fixed{
@@ -530,7 +452,8 @@ footer a:hover{
         position: relative;
     }
 
-    .aboutHeader {
+    .aboutHeader{
+        margin-bottom: 2.5vh;
         color: #173125;
     }
     
@@ -567,8 +490,7 @@ footer a:hover{
     }
 
     nav{
-        border-bottom: 3px solid #7f4b30;
-        height: 5vh;
+        height: 7.5vh;
     }
 
     .fixed{
@@ -587,7 +509,11 @@ footer a:hover{
         padding-left: 0;
         padding-top: 1rem;
     }
-    
+
+    .aboutHeader{
+        margin-bottom: 2.5vh;
+        color: #173125;
+    }
  
 
 }
@@ -633,11 +559,9 @@ footer a:hover{
         margin-bottom: 5vh;
     }
 
-    /*
     nav{
         border-top: 3px solid #7f4b30;
     }
-    */
 
     footer{
         padding-bottom: 10vh;
@@ -692,12 +616,11 @@ footer a:hover{
 
     .aboutHeader{
         margin-bottom: 2.5vh;
-
+        color: #173125;
     }
 
     .headerBar {
     width: 200px !important;
-    color: #173125;
     }
 
     #aboutP{
@@ -737,7 +660,6 @@ footer a:hover{
 }
     
 .topContainer h1 {
-    color: #173125;
 }
   
     
