@@ -15,7 +15,7 @@ p {
 footer {
     border-top: 3px solid #e1d9c9;
     padding-top: 10px;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
     background-color: #e1d9c9;
 }
 
@@ -564,7 +564,7 @@ footer a:hover{
     }
 
     footer{
-        padding-bottom: 10vh;
+        padding-bottom: 5vh;
         }
 
     
