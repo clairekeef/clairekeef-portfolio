@@ -718,4 +718,9 @@ a[href^="mailto:"] {
     color: #7f4b30;
     text-decoration: underline;
   }
+
+  #indexKeyWords {
+    color: #173125;
+    font-weight: bold;
+  }
   
