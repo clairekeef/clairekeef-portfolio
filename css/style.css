@@ -396,12 +396,12 @@ margin-bottom: 0;
 
 footer p{
     margin-top: 1vh;
-    padding-top: 2px;
+    padding-top: px;
     margin-bottom:0px;
 }
 
 footer a{
-    margin: 3em;
+    margin: 1em;
     color: #b27d57;
     align-items: center;
 }
@@ -717,10 +717,5 @@ a[href^="mailto:"] {
   a[href^="mailto:"]:hover {
     color: #7f4b30;
     text-decoration: underline;
-  }
-
-  #indexKeyWords {
-    color: #173125;
-    font-weight: bold;
   }
   
