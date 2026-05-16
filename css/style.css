@@ -18,10 +18,9 @@ p {
 
 footer {
     border-top: 3px solid #e1d9c9;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5vh;
     background-color: #e1d9c9;
-    align-items: center;
-    height: var(--bar-height);
 }
 
 
@@ -396,7 +395,7 @@ margin-bottom: 0;
 
 footer p{
     margin-top: 1vh;
-    padding-top: 5px;
+    padding-top: px;
     margin-bottom:0px;
 }
 
@@ -570,7 +569,7 @@ footer a:hover{
     }
 
     footer{
-        padding-bottom: 5vh;
+        padding-bottom: 10vh;
         }
 
     
