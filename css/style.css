@@ -11,13 +11,17 @@ p {
     font-family: 'Bitter', serif;
 }
 
+:root {
+    --bar-height: 7.5vh;
+}
+
 
 footer {
     border-top: 3px solid #e1d9c9;
-    padding-top: 10px;
-    padding-bottom: 2vh;
+    padding-top: 0;
     background-color: #e1d9c9;
     align-items: center;
+    height: var(--bar-height);
 }
 
 
@@ -25,6 +29,7 @@ footer {
 
 nav{
     visibility: visible;
+    height: var(--bar-height);
 }
 .nav-link{
     color: #b27d57;
