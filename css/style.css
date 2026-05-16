@@ -698,3 +698,17 @@ footer a:hover{
     background-color: #7d8769;
     color: #173125;
 }
+
+/* Removes the default underline and changes the color */
+a[href^="mailto:"] {
+    color: #7f4b30;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Adds a hover effect */
+  a[href^="mailto:"]:hover {
+    color: #7f4b30;
+    text-decoration: underline;
+  }
+  
