@@ -17,6 +17,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 2vh;
     background-color: #e1d9c9;
+    align-items: center;
 }
 
 
@@ -397,6 +398,7 @@ footer p{
 footer a{
     margin: 1em;
     color: #b27d57;
+    align-items: center;
 }
 
 footer a:hover{
