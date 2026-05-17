@@ -51,6 +51,7 @@ nav{
 .navbar-nav {
     display: flex;
     align-items: center;
+    padding: 15px;
 }
 
 
@@ -663,9 +664,6 @@ footer a:hover{
     margin-left: 0px;
     margin-right: 0px;
 }
-    
-.topContainer h1 {
-}
   
     
 
@@ -676,12 +674,17 @@ footer a:hover{
     text-align: c;
 }
 
+/* padding: top right bottom left; */
+.topContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
 
-.topContainer,
 .contentContainer {
     width: 100%;
     margin: 0;
-    padding: 60px 0;
+    padding: 30px 0 0 15px;
 }
 
 /* controls readable content width */
@@ -702,6 +705,7 @@ footer a:hover{
 #ux {
     background-color: #7d8769;
     color: #173125;
+    padding-bottom: 50px;
 }
 
 /* Removes the default underline and changes the color */
@@ -715,5 +719,9 @@ a[href^="mailto:"] {
   a[href^="mailto:"]:hover {
     color: #7f4b30;
     text-decoration: underline;
+  }
+
+  #MapText, #UXText, #comingSoon {
+    margin-left: 20px;
   }
   
